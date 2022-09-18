@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class GridB extends StatefulWidget {
-  const GridB({Key? key}) : super(key: key);
+class Places extends StatefulWidget {
+  const Places({Key? key}) : super(key: key);
 
   @override
-  State<GridB> createState() => _GridBState();
+  State<Places> createState() => _PlacesState();
 }
 
-class _GridBState extends State<GridB> {
+class _PlacesState extends State<Places> {
   final List<Map<String, dynamic>> gridMap = [
     {
       "title": "Nepal",
